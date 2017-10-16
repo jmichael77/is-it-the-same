@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <!-- My stylesheet -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <title>Is it the Same?</title>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="utf-8">
+</head>
+<body>
+	<!-- title -->
+	<div class="container">
+
+
+  		<div class="row">
+  			<div class="col s12 m12 l12">
+  				<h1 id="head">Is it the Same?</h1>
+  			</div>
+  		</div>
+
+
+  		<!-- Card -->
+  		<div class="row">
+    	  <div class="col s12 m12 l12">
+    	    <div class="card-panel custom-col-1">
+    	      <span class="white-text card-1-span">
+    	      	Paste your text into the box's down below and click 'compare' to see if your text matches. (delete the spaces on the end for best results)
+    	      </span>
+    	    </div>
+    	  </div>
+    	</div>
+
+
+    	<!-- Text Areas -->
+    	<div class="row">
+
+    		<!-- Text Area 1 -->
+    		<form id="one" class="col s12 m6 l6">
+      		<div class="row">
+        		<div class="input-field col s12">
+          		<textarea id="text1" class="materialize-textarea"></textarea>
+          		<label for="textarea1">Text Area 1</label>
+        		</div>
+      		</div>
+    		</form>
+
+  			<!-- Text Area 2 -->
+    		<form id="two" class="col s12 m6 l6">
+      		<div class="row">
+        		<div class="input-field col s12">
+          		<textarea id="text2" class="materialize-textarea"></textarea>
+          		<label for="textarea2">Text Area 2</label>
+        		</div>
+      		</div>
+    		</form>
+
+  		</div> <!-- Text Areas DIV -->
+
+  		<div class="row center">
+        <div class="col s12 m12 l12">
+        	<a id="compare" class="waves-effect waves-light btn"><i class="material-icons right">compare_arrows</i>compare</a>
+        </div>
+      </div>
+
+
+    </div> <!-- Container DIV -->
+
+
+
+
+  	<!--Import jQuery before materialize.js-->
+  	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  	<!-- Compiled and minified JavaScript -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  	<!-- My Script -->
+  	<script type="text/javascript" src="./assets/js/script.js"></script>
+  	<!-- Typed.js -->
+  	<script src="./assets/lib/typed.min.js" type="text/javascript"></script>
+  	<script src="./assets/js/demos.js"></script>
+</body>
+</html>

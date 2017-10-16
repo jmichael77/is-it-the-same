@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+body {
+	background-image: url("../img/playstation-pattern.png");
+	font-family: 'Lato', sans-serif;
+}
+
+/* title */
+
+h1 {
+	color: #636162;
+	text-align: center;
+}
+
+/* card 1 */
+.custom-col-1 {
+	background-color: #A9AFD1;
+}
+
+.card-1-span {
+	text-al
+}
+
+/* Texts Areas */
+
+textarea.materialize-textarea:focus:not([readonly]){
+	border-bottom: 1px solid #A1CDF4;
+	box-shadow: 0 1px 0 0 #A1CDF4;
+}
+
+textarea.materialize-textarea:focus:not([readonly])+label {
+	color: #A1CDF4;
+}
+
+#compare {
+	background-color: #A9AFD1;
+}
